@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+</head>
+<body>
+    <style>
+        table, th, td{
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding-right: 40px;
+        }
+    </style>
+    <!-- Colspan & Rowspan -->
+     <h1>Colspan & Rowspan</h1>
+     <table>
+        <tr>
+            <th>Products</th>
+            <th>Unit Price</th>
+            <th>Qty</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>coca</td>
+            <td>10$</td>
+            <td>10$</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>10$</td>
+            <td>10$</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td>10$</td>
+            <td>10$</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center">Total</td>
+            <td style="font-weight: bold; color:rgb(177, 17, 17)">300$</td>
+        </tr>
+     </table>
+        <h1>Rowspan</h1>
+     <table>
+        <tr>
+            <th rowspan="4">Products</th>
+            <th>Unit Price</th>
+            <th>Qty</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>10$</td>
+            <td>10$</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td>10$</td>
+            <td>10$</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td>10$</td>
+            <td>10$</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center">Total</td>
+            <td style="font-weight: bold; color:rgb(177, 17, 17)">300$</td>
+        </tr>
+     </table>
+</body>
+</html>
